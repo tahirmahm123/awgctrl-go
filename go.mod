@@ -1,4 +1,4 @@
-module golang.zx2c4.com/wireguard/wgctrl
+module github.com/tahirmahm123/awgctrl
 
 go 1.20
 

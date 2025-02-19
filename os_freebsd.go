@@ -4,9 +4,9 @@
 package wgctrl
 
 import (
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgfreebsd"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wguser"
+	"github.com/tahirmahm123/awgctrl/internal/wgfreebsd"
+	"github.com/tahirmahm123/awgctrl/internal/wginternal"
+	"github.com/tahirmahm123/awgctrl/internal/wguser"
 )
 
 // newClients configures wginternal.Clients for FreeBSD systems.

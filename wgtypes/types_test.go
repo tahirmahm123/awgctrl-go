@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/crypto/curve25519"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/tahirmahm123/awgctrl/wgtypes"
 )
 
 func TestPreparedKeys(t *testing.T) {

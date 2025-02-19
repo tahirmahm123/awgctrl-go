@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgtest"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/tahirmahm123/awgctrl/internal/wgtest"
+	"github.com/tahirmahm123/awgctrl/wgtypes"
 )
 
 // Example string source (with some slight modifications to use all fields):

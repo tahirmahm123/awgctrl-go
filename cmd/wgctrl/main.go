@@ -9,8 +9,8 @@ import (
 	"net"
 	"strings"
 
-	"golang.zx2c4.com/wireguard/wgctrl"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/tahirmahm123/awgctrl"
+	"github.com/tahirmahm123/awgctrl/wgtypes"
 )
 
 func main() {

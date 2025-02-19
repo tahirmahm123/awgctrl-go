@@ -13,10 +13,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/mikioh/ipaddr"
-	"golang.zx2c4.com/wireguard/wgctrl"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgtest"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/tahirmahm123/awgctrl"
+	"github.com/tahirmahm123/awgctrl/internal/wginternal"
+	"github.com/tahirmahm123/awgctrl/internal/wgtest"
+	"github.com/tahirmahm123/awgctrl/wgtypes"
 )
 
 func TestIntegrationClient(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgwindows/internal/ioctl"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/tahirmahm123/awgctrl/internal/wginternal"
+	"github.com/tahirmahm123/awgctrl/internal/wgwindows/internal/ioctl"
+	"github.com/tahirmahm123/awgctrl/wgtypes"
 )
 
 var _ wginternal.Client = &Client{}

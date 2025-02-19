@@ -15,7 +15,7 @@ import (
 // Expected prefixes when dealing with named pipes.
 const (
 	pipePrefix = `\\.\pipe\`
-	wgPrefix   = `ProtectedPrefix\Administrators\WireGuard\`
+	wgPrefix   = `ProtectedPrefix\Administrators\AmneziaWG\`
 )
 
 // dial is the default implementation of Client.dial.
